@@ -1,5 +1,9 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
-	width: 100%;
+	margin: 0px;
 }
 
 h1{
@@ -7,9 +11,37 @@ h1{
 }
 
 h2 {
-
+	margin: 0px;
+	text-align: center;
 }
 
-.row {
-	width: 100%;
+p {
+	width: 90%;
+	margin: 10px;
+}
+
+.block {
+		margin: 10px;
+		background: grey;
+		border: 1px solid black;
+}
+
+.block_title {
+	float: right;
+	width: 33%;
+	margin: 0px;
+	align-content: right;
+	border: 1px solid black;
+}
+
+#chicken {
+	background: red;
+}
+
+#beef {
+	background: yellow;
+}
+
+#sushi {
+	background: pink;
 }
