@@ -16,14 +16,16 @@ h2 {
 }
 
 p {
+	clear: right;
 	width: 90%;
 	margin: 10px;
 }
 
 .block {
-		margin: 10px;
-		background: grey;
-		border: 1px solid black;
+	position: relative;
+	margin: 10px;
+	background: grey;
+	border: 1px solid black;
 }
 
 .block_title {
@@ -34,14 +36,29 @@ p {
 	border: 1px solid black;
 }
 
+#chicken_box {
+	background: red;
+}
+
+#beef_box {
+	background: yellow;
+}
+
+#sushi_box {
+	background: pink;
+}
+
 #chicken {
+	color: white;
 	background: red;
 }
 
 #beef {
+	color: black;
 	background: yellow;
 }
 
 #sushi {
+	color: black;
 	background: pink;
 }
