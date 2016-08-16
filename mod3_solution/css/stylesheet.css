@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+}
+
+/*h1{
+	text-align: center;
+}*/
+
+h2 {
+	margin: 0px;
+	text-align: center;
+}
+
+p {
+	clear: right;
+	width: 90%;
+	margin: 10px;
+}
+
+.block {
+	position: relative;
+	margin: 10px;
+	background: grey;
+	border: 1px solid black;
+}
+
+.block_title {
+	float: right;
+	width: 33%;
+	margin: 0px;
+	align-content: right;
+	border: 1px solid black;
+}
+
+#chicken_box {
+	background: red;
+}
+
+#beef_box {
+	background: yellow;
+}
+
+#sushi_box {
+	background: pink;
+}
+
+#chicken {
+	color: white;
+	background: red;
+}
+
+#beef {
+	color: black;
+	background: yellow;
+}
+
+#sushi {
+	color: black;
+	background: pink;
+}
+
+/** HEADER **/
+
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-header a:hover, .navbar-header a:focus {
+  text-decoration: none;
+}
+
+.navbar-header h1 { /* Food, LLC*/
+  float: left;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #080808;
+  margin-top: 5;
+  margin-bottom: 5;
+  line-height: .75;
+}
+
+#nav-toggle-button-1 { /* navbar button */
+  margin-top: 17px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar { /* navbar button */
+  border: 1px solid black;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+/** END HEADER **/
